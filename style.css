@@ -51,12 +51,18 @@ p{
   background: #ffd803;
   color: #272343;
   border: 5px solid #272343;
-  
+  position: fixed;
+ /* top: 0px;*/
+  left: 0px;
+  top: 300px;
+  z-index: 10;
 }
 
 .sticky {
   background: #232946;
   color: #b8c1ec;
   border: 5px solid #eebbc3;
+  position: sticky;
+  top: 50px;
   
 }
